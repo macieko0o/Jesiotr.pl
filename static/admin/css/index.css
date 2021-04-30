@@ -1,0 +1,123 @@
+.navbarek {
+    margin-left: 13vw;
+}
+.margin-links {
+    margin-left: 4vw;
+}
+.logo {
+    width: 209px;
+    height: 106px;
+}
+.link {
+    transition-duration: 0.5s;
+    padding-left: 25px;
+    color: black;
+    font-size: 40px;
+}
+.current-site {
+    transition-duration: 1s;
+    color: #EE5050;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 40px;
+}
+.categoryButton {
+    font-size: 26px;
+    color: white;
+    background-color: #FF4B4B;
+    padding: 8px;
+    padding-bottom: 12px;
+    border: 0px;
+    border-top: 1px;
+    min-width: 100%;
+}
+
+.cytat {
+    margin-bottom: 30vh;
+}
+.podpis {
+
+}
+.kupujkurde {
+    margin-bottom: 10vh;
+}
+
+.user {
+    transition-duration: 0.5s;
+    margin-top: 10px;
+}
+.cart {
+    transition-duration: 0.5s;
+    margin-left: -17px;
+    margin-top: -5px;
+}
+.inner-nav {
+    min-width: 6vw;
+}
+.categories {
+    margin-top: 50px;
+}
+.footer {
+    background-color: #515050;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+.cena {
+    font-size: 20px;
+}
+
+.product {
+    transition-duration: 1s;
+}
+.products {
+    margin-bottom: 30px;
+}
+
+.nav-link {
+    transition-duration: 1s;
+}
+.minus {
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+.user:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.10)
+}
+.cart:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.10)
+}
+.link:hover {
+    transition-duration: 0.5s;
+    color: #EE5050;
+    transform: scale(1.05)
+}
+.category {
+    transition-duration: 1s;
+}
+.product:hover {
+    transition-duration: 1s;
+    transform: scale(1.05)
+}
+.category:hover {
+    transition-duration: 1s;
+    transform: scale(1.05)
+}
+a:visited:active, a:link:active {
+    color: black;
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}

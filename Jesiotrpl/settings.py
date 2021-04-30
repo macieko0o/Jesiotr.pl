@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'glowna',
 ]
 
 MIDDLEWARE = [
@@ -48,14 +49,21 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    '/var/www/static/',
+]
 
 ROOT_URLCONF = 'Jesiotrpl.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/jarek/Jesiotrpl/templates'],
         'APP_DIRS': True,
+         
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
